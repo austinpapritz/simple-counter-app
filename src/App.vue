@@ -1,17 +1,17 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <Counter />
+    <SimpleCounter />
   </div>
 </template>
 
 <script>
-import Counter from './components/Counter.vue'
+import SimpleCounter from './components/SimpleCounter.vue'
 
 export default {
   name: 'App',
   components: {
-    Counter
+    SimpleCounter
   }
 }
 </script>
